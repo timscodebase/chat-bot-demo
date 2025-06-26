@@ -71,7 +71,7 @@ export default function ChatPage() {
       <div style={{ position: 'fixed', inset: 0, zIndex: -1 }}>
       <BubbleBackground
         interactive
-        className="absolute inset-0 flex items-center justify-center rounded-xl -x-1"
+        className="absolute inset-0 flex items-center justify-center -x-1"
       />
       </div>
       <main className={styles.main}>
