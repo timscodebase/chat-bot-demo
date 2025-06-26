@@ -1,0 +1,25 @@
+.main {
+  max-width: 600px;
+  min-height: 100svh;
+  margin: 0 auto;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.chat {
+  min-height: 50svh;
+  margin-bottom: 16px;
+  color: var(--chat-a-text);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font-size: 16px;
+  color: var(--chat-b-text);
+  background-color: var(--chat-b-bg);
+  border-radius: var(--radius);
+  cursor: pointer;
+}
